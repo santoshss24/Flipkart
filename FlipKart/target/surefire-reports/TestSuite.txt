@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 4.922 s <<< FAILURE! - in TestSuite
+testcases.TC001.launchApp  Time elapsed: 4.679 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created
+from no such window: window was already closed
+  (Session info: chrome=79.0.3945.88)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TYSS-SR-021', ip: '192.168.43.235', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_251'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0153A113+1548563]
+	Ordinal0 [0x014BDDA1+1039777]
+	Ordinal0 [0x0143E485+517253]
+	Ordinal0 [0x01438B74+494452]
+	Ordinal0 [0x01439855+497749]
+	Ordinal0 [0x01435885+481413]
+	Ordinal0 [0x0143F0D0+520400]
+	Ordinal0 [0x013EC030+180272]
+	Ordinal0 [0x013EB59D+177565]
+	Ordinal0 [0x013E95FB+169467]
+	Ordinal0 [0x013D160A+71178]
+	Ordinal0 [0x013D2690+75408]
+	Ordinal0 [0x013D2629+75305]
+	Ordinal0 [0x014D71B7+1143223]
+	GetHandleVerifier [0x015D2B46+507814]
+	GetHandleVerifier [0x015D2864+507076]
+	GetHandleVerifier [0x015D9F47+537511]
+	GetHandleVerifier [0x015D3402+510050]
+	Ordinal0 [0x014CF29C+1110684]
+	Ordinal0 [0x014D938B+1151883]
+	Ordinal0 [0x014D94F3+1152243]
+	Ordinal0 [0x014D83F5+1147893]
+	BaseThreadInitThunk [0x74DD6A14+36]
+	RtlInitializeExceptionChain [0x7713ADCF+143]
+	RtlInitializeExceptionChain [0x7713AD9A+90]
+
+
+testcases.TC001.closeApp  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+

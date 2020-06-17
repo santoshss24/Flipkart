@@ -1,0 +1,13 @@
+pages\BasePage.class
+pages\ProductPage.class
+pages\LoginPage.class
+library\GetPhoto.class
+pages\HomePage.class
+testcases\TC001.class
+library\IAutoConstants.class
+pages\OrderPage.class
+library\ExcelLibrary.class
+library\WebActionUtil.class
+testcases\BaseTest.class
+testcases\TC002.class
+library\GenericPropertyLib.class
