@@ -14,8 +14,8 @@ public interface IAutoConstants
 	
 	String APP_URL ="http://automationpractice.com/index.php";
 	String BROWSER_NAME="chrome";
-	String IMPLICIT="5";	
-	String EXPLICIT="5";
+	String IMPLICIT="30";	
+	String EXPLICIT="30";
 	String USERNAME="nameishemanth@rediffmail.com";
 	String PASSWORD="Testing@123";
 }
