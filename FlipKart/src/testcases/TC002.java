@@ -30,6 +30,5 @@ public class TC002 extends BaseTest
 		productPage.clickOnAddToCart();
 		OrderPage orderPage = productPage.clickOnProceedToCheckOut();;
 		Assert.assertTrue(orderPage.verifyProductIsDiplayed(productId));
-		Assert.fail();
 	}
 }
